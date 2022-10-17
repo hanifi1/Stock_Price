@@ -1,0 +1,3 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'us-west2 -docker.pkg.dev/mcgill-project-365704/quickstart-docker-repo/ quickstart-image', '.' ]
